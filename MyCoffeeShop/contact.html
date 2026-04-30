@@ -1,0 +1,47 @@
+<head lang="fr">
+    <mata charset="UTF_8">
+    
+    <meta name="author" content="LAAMIRI AYA">
+    <link rel="stylesheet" href="style.css">
+    <title> Coffe Shop </title>
+
+</head>
+<body id="contact-page">
+    <header>
+        <nav>
+            <div class="logo"> <h1>Pause Caffe</h1></div>
+            <ul  class="liens">
+                <li><a href="index.html">Home</a></li>   
+                <li><a href="menu.html">Menu</a></li> 
+                <li><a href="about.html">A Propos</a></li>   
+                <li><a href="gallery.html">Galerie</a></li>   
+                <li><a href="contact.html">contact</a></li>
+               
+            </ul>
+        </nav>
+      
+    </header>
+     <hr      /><br/><br/><br/><br/><br/>
+
+<div class="contact">
+    <fieldset>
+    <form method="post"  action="">
+        
+        <label for="name">NOM</label><br/><br/>
+        <input id="name" type="texte" placeholder="name" required  pattern="^[a-zA-Z]+$" minlength=""><br/><br />
+
+        <label for="email">Email</label><br/><br />
+        <input id="email" type="email" placeholder="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" ><br/><br />
+        
+        <label for="tele"> telephone</label><br/><br />
+        <input id="tele" type="number" placeholder="tele" required pattern="^ (05|06|07)[0-9]{10}$" >
+
+        <label class="btn" for="botton"></label><br/><br/>
+        <input  id="botton" type="submit" value="envoye">
+
+
+    </form>
+    </fieldset>
+</div>
+<script src="script.js"></script>
+</body>
